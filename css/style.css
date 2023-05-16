@@ -17,6 +17,7 @@
 
 html {
   box-sizing: border-box;
+  background-color: var(--cream);
 }
 *,
 *:before,
@@ -27,6 +28,10 @@ html {
 .card {
   display: flex;
   flex-direction: column;
+  width: 90%;
+  margin: 2rem auto 2rem auto;
+  background-color: var(--white);
+  border-radius: 1rem;
 }
 
 .figure {
@@ -39,5 +44,6 @@ html {
 }
 
 .figure__img {
-  width: 90%;
+  border-radius: 0.6rem 0.6rem 0 0;
+  width: 100%;
 }
