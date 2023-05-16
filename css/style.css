@@ -50,10 +50,16 @@ html {
 
 .figure__description {
   align-self: flex-start;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-family: var(--montserrat);
   color: var(--dark-grayish-blue);
   margin: 1.2rem 0 0 1.2rem;
-  letter-spacing: 0.13rem;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
+}
+
+.card__title {
+  font-family: var(--fraunces);
+  margin: 0.5rem 1rem 0 1rem;
+  color: var(--very-dark-blue);
 }
