@@ -53,7 +53,7 @@ html {
   font-size: 0.75rem;
   font-family: var(--montserrat);
   color: var(--dark-grayish-blue);
-  margin: 1.3rem 0 0 1.3rem; 
+  margin: 1.3rem 0 0 1.3rem;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
@@ -67,8 +67,15 @@ html {
 }
 
 .card__paragraph {
-  margin: 0.8rem 1.25rem 0 1.50rem;
+  margin: 0.8rem 1.25rem 0 1.3rem;
   color: var(--dark-grayish-blue);
   line-height: 1.4;
   font-size: 1.03rem;
+}
+
+.card__price--real {
+  margin: 0.8rem 1.25rem 0 1.3rem;
+  color: var(--dark-cyan);
+  font-size: 1.6rem;
+  font-family: var(--fraunces);
 }
