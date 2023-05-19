@@ -53,15 +53,17 @@ html {
   font-size: 0.75rem;
   font-family: var(--montserrat);
   color: var(--dark-grayish-blue);
-  margin: 1.2rem 0 0 1.2rem; 
+  margin: 1.3rem 0 0 1.3rem; 
   letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 
 .card__title {
+  font-size: 1.85rem;
   font-family: var(--fraunces);
-  margin: 0.5rem 1.25rem 0 1.25rem;
   color: var(--very-dark-blue);
+  margin: 0.5rem 1.25rem 0 1.25rem;
+  line-height: 1.05;
 }
 
 .card__paragraph {
