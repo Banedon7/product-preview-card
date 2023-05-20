@@ -28,7 +28,7 @@ html {
 .card {
   display: flex;
   flex-direction: column;
-  width: 86%;
+  width: 91%;
   margin: 1.75rem auto 1.75rem auto;
   background-color: var(--white);
   border-radius: 1rem;
@@ -53,29 +53,40 @@ html {
   font-size: 0.75rem;
   font-family: var(--montserrat);
   color: var(--dark-grayish-blue);
-  margin: 1.3rem 0 0 1.3rem;
+  margin: 1.3rem 0 0 1.7rem;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 
 .card__title {
-  font-size: 1.85rem;
+  font-size: 1.95rem;
   font-family: var(--fraunces);
   color: var(--very-dark-blue);
-  margin: 0.5rem 1.25rem 0 1.25rem;
+  margin: 0.7rem 1.7rem 0 1.7rem;
   line-height: 1.05;
 }
 
 .card__paragraph {
-  margin: 0.8rem 1.25rem 0 1.3rem;
+  margin: 0.8rem 1.6rem 0 1.6rem;
   color: var(--dark-grayish-blue);
-  line-height: 1.4;
-  font-size: 1.03rem;
+  line-height: 1.43;
+  font-size: 1.07rem;
 }
 
 .card__price--real {
-  margin: 0.8rem 1.25rem 0 1.3rem;
+  margin: 0.9rem 1.25rem 0 1.3rem;
   color: var(--dark-cyan);
   font-size: 1.6rem;
   font-family: var(--fraunces);
+}
+
+.card__price--offer {
+  align-self: center;
+  font-size: 0.83rem;
+  font-family: var(--montserrat);
+  color: var(--dark-grayish-blue);
+  text-decoration: line-through;
+  position: relative;
+  bottom: 37px;
+  right: 6px;
 }
