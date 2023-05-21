@@ -74,7 +74,7 @@ html {
 }
 
 .card__price--real {
-  margin: 0.9rem 1.25rem 0 1.3rem;
+  margin: 0.9rem 1.25rem 0 1.4rem;
   color: var(--dark-cyan);
   font-size: 1.6rem;
   font-family: var(--fraunces);
@@ -88,5 +88,25 @@ html {
   text-decoration: line-through;
   position: relative;
   bottom: 37px;
-  right: 6px;
+  right: 4px;
+}
+
+.card__button {
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  font-size: 0.9rem;
+  font-family: var(--montserrat);
+  font-weight: 700;
+  border-style: none;
+  border-radius: 0.5rem;
+  width: 87%;
+  height: 3.2rem;
+  margin: 0 auto 0.3rem auto;
+  position: relative;
+  bottom: 25px;
+}
+
+.icon-cart {
+  position: relative;
+  right: 8px;
 }
