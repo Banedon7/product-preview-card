@@ -127,10 +127,17 @@ html {
 
   .card {
     flex-direction: row;
+    width: 50%;
+    height: 60vh;
   }
 
   .figure {
     flex-direction: row;
+    height: 100%;
+  }
+
+  .figure__img {
+    height: 100%; 
   }
 
   .figure__description {
