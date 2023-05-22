@@ -59,6 +59,11 @@ html {
   text-transform: uppercase;
 }
 
+.card__section {
+    display: flex;
+    flex-direction: column;
+  }
+
 .card__title {
   font-size: 1.95rem;
   font-family: var(--fraunces);
@@ -110,4 +115,18 @@ html {
 .icon-cart {
   position: relative;
   right: 8px;
+}
+
+@media (min-width: 992px) {
+  .card {
+    flex-direction: row;
+  }
+
+  .figure {
+    flex-direction: row;
+  }
+
+  .card__section {
+    
+  }
 }
