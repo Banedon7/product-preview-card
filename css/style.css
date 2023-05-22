@@ -118,6 +118,13 @@ html {
 }
 
 @media (min-width: 992px) {
+  html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
   .card {
     flex-direction: row;
   }
@@ -126,7 +133,7 @@ html {
     flex-direction: row;
   }
 
-  .card__section {
-    
+  .figure__description {
+    position: absolute;
   }
 }
