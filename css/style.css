@@ -46,6 +46,7 @@ html {
 .figure__img {
   border-radius: 0.6rem 0.6rem 0 0;
   width: 100%;
+  height: 37vh;
 }
 
 .figure__description {
