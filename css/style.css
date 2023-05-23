@@ -114,12 +114,13 @@ html {
 @media (min-width: 992px) {
   .card {
     flex-direction: row;
+    margin: 12rem auto;
     width: 50%;
-    height: 60vh;
+    height: 50vh;
   }
 
   .card__img {
-    height: 100vh;
+    height: auto;
     background-image: url("../images/image-product-desktop.jpg");
     background-size: contain;
     background-repeat: no-repeat;
