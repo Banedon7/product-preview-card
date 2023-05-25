@@ -129,7 +129,9 @@ html {
   }
 
   .card__perfum {
-    margin: 1.8rem 0 0.5rem 1.75rem;
+    font-size: 0.67rem;
+    letter-spacing: 0.28rem;
+    margin: 1.8rem 0 0.5rem 1.8rem;
   }
 
   .card__title {
@@ -139,6 +141,10 @@ html {
 
   .card__paragraph {
     font-size: 1rem;
-    margin: 1rem 3rem 0.5rem 1.75rem;
+    margin: 1.3rem 3rem 0.5rem 1.75rem;
+  }
+
+  .card__price--real {
+    margin: 1rem 1.25rem 0 1.75rem;
   }
 }
