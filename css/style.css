@@ -140,11 +140,18 @@ html {
   }
 
   .card__paragraph {
-    font-size: 1rem;
-    margin: 1.3rem 3rem 0.5rem 1.75rem;
+    font-size: 0.9rem;
+    margin: 1.3rem 3rem 0.4rem 1.75rem;
+    line-height: 1.5;
   }
 
   .card__price--real {
     margin: 1rem 1.25rem 0 1.75rem;
+  }
+
+  .card__price--offer {
+    font-size: 0.75rem;
+    bottom: 35px;
+    left: 33px;
   }
 }
