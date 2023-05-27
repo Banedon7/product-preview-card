@@ -116,7 +116,7 @@ html {
     flex-direction: row;
     margin: 12rem auto;
     width: 45%;
-    height: 50vh;
+    height: 46.5vh;
   }
 
   .card__img {
@@ -153,5 +153,13 @@ html {
     font-size: 0.75rem;
     bottom: 35px;
     left: 33px;
+  }
+
+  .card__button {
+    width: 77%;
+    height: 2.8rem;
+    margin: 1rem auto 0.2rem auto;
+    font-weight: 500;
+    border-radius: 0.45rem;
   }
 }
