@@ -115,12 +115,13 @@ html {
   .card {
     flex-direction: row;
     margin: 12rem auto;
-    width: 45%;
-    height: 46vh;
+    width: 43%;
+    height: 45.2vh;
+    border-radius: 0.6rem;
   }
 
   .card__img {
-    width: 65vw;
+    width: 63vw;
     height: auto;
     background-image: url("../images/image-product-desktop.jpg");
     background-size: cover;
@@ -159,10 +160,17 @@ html {
   .card__button {
     width: 77%;
     height: 2.7rem;
-    margin: 1rem auto 0.2rem auto;
+    margin: 1rem auto 0 auto;
     font-weight: 500;
     border-radius: 0.45rem;
     font-size: 0.8rem;
     line-height: 2;
+  }
+
+  .icon-cart {
+    width: 13px;
+    height: 14px;
+    top: 2px;
+    right: 6px;
   }
 }
