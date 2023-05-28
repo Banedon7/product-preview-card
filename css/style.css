@@ -116,7 +116,7 @@ html {
     flex-direction: row;
     margin: 12rem auto;
     width: 45%;
-    height: 46.5vh;
+    height: 46vh;
   }
 
   .card__img {
@@ -137,6 +137,7 @@ html {
   .card__title {
     margin-top: 1.2rem;
     margin: 0.7rem 3rem 0 1.8rem;
+    line-height: 1;
   }
 
   .card__paragraph {
@@ -157,9 +158,11 @@ html {
 
   .card__button {
     width: 77%;
-    height: 2.8rem;
+    height: 2.7rem;
     margin: 1rem auto 0.2rem auto;
     font-weight: 500;
     border-radius: 0.45rem;
+    font-size: 0.8rem;
+    line-height: 2;
   }
 }
